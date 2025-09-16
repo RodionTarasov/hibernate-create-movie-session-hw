@@ -32,6 +32,8 @@ public class Main {
         hall1.setCapacity(100);
         hall1.setDescription("Main Hall");
         cinemaHallService.add(hall1);
+        cinemaHallService.get(hall1.getId());
+        cinemaHallService.getAll();
 
         CinemaHall hall2 = new CinemaHall();
         hall2.setCapacity(50);
